@@ -18,7 +18,5 @@ jwebserver -p 9000 -d "$(pwd)/docs/"
 - https://www.impactmapping.org/
 - https://github.com/impactmapping/open-impact-mapping-workshop?tab=readme-ov-file
 - https://github.com/SteveBarnett/Impact-Mapping-Workshop/tree/master
-- https://www.eventstorming.com/
-- https://agilemanifesto.org/
-- https://en.wikipedia.org/wiki/Extreme_programming
 - https://gojko.net/
+- https://less.works/less-conference/2016-amsterdam/impact-mapping-with-innovation-games.pdf
