@@ -11,7 +11,7 @@
 
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
-	<link rel="stylesheet" href="dist/theme/black.css">
+	<link rel="stylesheet" href="dist/theme/white.css">
 
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -44,7 +44,7 @@
 		<!-- End footer -->
 
 		<div class="slides">
-			<section data-background="#FFFFFF">
+			<section>
 				<h1>101 Impact Mapping</h1>
 				<img src="images/im-team.jpg" width="60%" />
 				<br />
@@ -78,13 +78,13 @@
 					</tr>
 				</table>
 			</section>
-			<section data-background="#FFFFFF">
+			<section>
 				<section data-background="images/cicd-pipeline.png">
 					<blockquote style="background-color:#FFF">
-						<p>
+						<p style="color:black">
 							<strong>“Production is the best place on the Internet.”</strong>
 						</p>
-						<p>
+						<p style="color:black">
 							- <a href="https://twitter.com/starbuxman" target="_blank">Josh Long</a>
 						</p>
 					</blockquote>
@@ -116,20 +116,20 @@
 					</blockquote>
 				</section>
 			</section>
-			<section data-background="#FFFFFF">
+			<section>
 				<section>
 					<h2>Agenda</h1>
-						<ul>
-							<li>Introduction</li>
-							<li>Impact Mapping in detail</li>
-							<li>Examples</li>
-							<li>How to run a workshop?</li>
-							<li>My experience using the technique</li>
-							<li>Books</li>
-						</ul>
+					<ul>
+						<li>Introduction</li>
+						<li>Impact Mapping in detail</li>
+						<li>Examples</li>
+						<li>How to run a workshop?</li>
+						<li>My experience using the technique</li>
+						<li>Books</li>
+					</ul>
 				</section>
 			</section>
-			<section data-background="#FFFFFF">
+			<section>
 				<section>
 					<h2>Introduction</h2>
 					<strong>What is Impact Mapping?</strong>
@@ -171,7 +171,7 @@
 					</p>
 				</section>
 			</section>
-			<section data-background="#FFFFFF">
+			<section>
 				<section>
 					<h2>Impact Mapping in detail</h1>
 					<img src="images/im-template.png" />
@@ -266,7 +266,7 @@
 				</section>
 			</section>
 			
-			<section data-background="#FFFFFF">
+			<section>
 				<section>
 					<h2>Examples</h1>
 					<img src="images/example.png" />
@@ -278,7 +278,7 @@
 			</section>
 
 
-			<section data-background="#FFFFFF">
+			<section>
 				<section>
 					<h2>How to run a workshop?</h2>
 					<img src="images/im-process.png" width="80%" />
@@ -301,14 +301,14 @@
 				</section>
 			</section>
 
-			<section data-background="#FFFFFF">
+			<section>
 				<section>
 					<h2>My experience using the technique</h2>
 					PENDING
 				</section>
 			</section>
 
-			<section data-background="#FFFFFF">
+			<section>
 				<section>
 					<h2>Books</h2>
 					<img src="images/book-impact-mapping.jpg" width="50%" />
@@ -330,7 +330,7 @@
 					<img src="images/book-event-storming.jpg" width="40%" />
 				</section>
 			</section>
-			<section data-background="#FFFFFF">
+			<section>
 				<h2>Thanks</h2>
 			</section>
 		</div>
@@ -348,10 +348,14 @@
 		// - https://revealjs.com/config/
 		Reveal.initialize({
 			controls: true,
+			controlsLayout: 'bottom-right',
 			progress: true,
 			center: true,
 			hash: true,
+			touch: true,
 			transition: 'slide', // none/fade/slide/convex/concave/zoom
+			slideNumber: true,
+			showSlideNumber: 'all',
 
 			// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
